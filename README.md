@@ -1,4 +1,4 @@
-![MasterHead]([https://cdn.webrazzi.com/uploads/2017/07/programlama-dilleri.jpg](https://e1.pxfuel.com/desktop-wallpaper/78/614/desktop-wallpaper-programming-languages-computer-language.jpg)) 
+![MasterHead](https://www.seodanismanligi.com/resim/image.jpg)
 <h1 align="center">Hi 👋, I'm Ömer Faruk Selçuk</h1>
 <h3 align="center">A passionate backend developer from Türkiye</h3>
 
