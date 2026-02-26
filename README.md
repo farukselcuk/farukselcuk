@@ -188,7 +188,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=farukselcuk&theme=radical" alt="farukselcuk GitHub Streak"/>
 </p>
 
-![Gitartwork](https://raw.githubusercontent.com/farukselcuk/farukselcuk/main/gitartwork.svg)
 
 
 
