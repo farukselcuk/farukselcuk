@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice">
+  <rect width="100%" height="100%" fill="#0d1117" />
+  <defs>
+    <style type="text/css"><![CDATA[
+      .m  { font: 18px monospace; fill: #00ff41; opacity: 0.7 }
+      .md { font: 18px monospace; fill: #00ff41; opacity: 0.35 }
+      .mb { font: 18px monospace; fill: #7fff7f; opacity: 1.0 }
+      .title { font: bold 42px 'Courier New', monospace; fill: #00ff41; }
+      .sub   { font: 16px 'Courier New', monospace; fill: #3fbf3f; opacity: 0.85 }
+      .glow  { filter: drop-shadow(0 0 6px #00ff41) drop-shadow(0 0 12px #00ff4188); }
+    ]]></style>
+  </defs>
+
+  <!-- ═══════════════ FALLING COLUMNS ═══════════════ -->
+  <!-- Col 1 -->
+  <g>
+    <text class="md" x="30" y="-20">ア</text>
+    <text class="m"  x="30" y="-50">0</text>
+    <text class="md" x="30" y="-80">カ</text>
+    <text class="m"  x="30" y="-110">7</text>
+    <text class="md" x="30" y="-140">サ</text>
+    <text class="mb" x="30" y="-170">F</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.8s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Col 2 -->
+  <g>
+    <text class="m"  x="70" y="-10">1</text>
+    <text class="md" x="70" y="-40">タ</text>
+    <text class="m"  x="70" y="-70">3</text>
+    <text class="md" x="70" y="-100">ナ</text>
+    <text class="mb" x="70" y="-130">A</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.3s" repeatCount="indefinite" begin="-1.2s" />
+  </g>
+
+  <!-- Col 3 -->
+  <g>
+    <text class="md" x="110" y="-30">ハ</text>
+    <text class="m"  x="110" y="-60">5</text>
+    <text class="md" x="110" y="-90">マ</text>
+    <text class="m"  x="110" y="-120">9</text>
+    <text class="mb" x="110" y="-150">R</text>
+    <text class="md" x="110" y="-180">ヤ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.5s" repeatCount="indefinite" begin="-0.5s" />
+  </g>
+
+  <!-- Col 4 -->
+  <g>
+    <text class="m"  x="150" y="-15">2</text>
+    <text class="md" x="150" y="-45">ラ</text>
+    <text class="m"  x="150" y="-75">8</text>
+    <text class="mb" x="150" y="-105">U</text>
+    <text class="md" x="150" y="-135">ワ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.7s" repeatCount="indefinite" begin="-2.1s" />
+  </g>
+
+  <!-- Col 5 -->
+  <g>
+    <text class="md" x="190" y="-25">イ</text>
+    <text class="m"  x="190" y="-55">4</text>
+    <text class="mb" x="190" y="-85">K</text>
+    <text class="md" x="190" y="-115">ウ</text>
+    <text class="m"  x="190" y="-145">6</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.9s" repeatCount="indefinite" begin="-0.8s" />
+  </g>
+
+  <!-- Col 6 -->
+  <g>
+    <text class="m"  x="240" y="-20">0</text>
+    <text class="md" x="240" y="-50">エ</text>
+    <text class="mb" x="240" y="-80">S</text>
+    <text class="m"  x="240" y="-110">1</text>
+    <text class="md" x="240" y="-140">オ</text>
+    <text class="m"  x="240" y="-170">3</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.1s" repeatCount="indefinite" begin="-1.5s" />
+  </g>
+
+  <!-- Col 7 -->
+  <g>
+    <text class="md" x="280" y="-10">キ</text>
+    <text class="m"  x="280" y="-40">7</text>
+    <text class="md" x="280" y="-70">ク</text>
+    <text class="mb" x="280" y="-100">E</text>
+    <text class="m"  x="280" y="-130">5</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.5s" repeatCount="indefinite" begin="-0.3s" />
+  </g>
+
+  <!-- Col 8 -->
+  <g>
+    <text class="m"  x="320" y="-35">9</text>
+    <text class="md" x="320" y="-65">シ</text>
+    <text class="mb" x="320" y="-95">L</text>
+    <text class="m"  x="320" y="-125">2</text>
+    <text class="md" x="320" y="-155">ス</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.6s" repeatCount="indefinite" begin="-1.8s" />
+  </g>
+
+  <!-- Col 9 -->
+  <g>
+    <text class="md" x="370" y="-20">セ</text>
+    <text class="mb" x="370" y="-50">C</text>
+    <text class="m"  x="370" y="-80">4</text>
+    <text class="md" x="370" y="-110">ソ</text>
+    <text class="m"  x="370" y="-140">8</text>
+    <text class="md" x="370" y="-170">チ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.4s" repeatCount="indefinite" begin="-0.6s" />
+  </g>
+
+  <!-- Col 10 -->
+  <g>
+    <text class="m"  x="420" y="-15">6</text>
+    <text class="md" x="420" y="-45">ツ</text>
+    <text class="mb" x="420" y="-75">U</text>
+    <text class="m"  x="420" y="-105">0</text>
+    <text class="md" x="420" y="-135">テ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.7s" repeatCount="indefinite" begin="-2.4s" />
+  </g>
+
+  <!-- Col 11 - right side -->
+  <g>
+    <text class="md" x="480" y="-25">ト</text>
+    <text class="m"  x="480" y="-55">3</text>
+    <text class="md" x="480" y="-85">ニ</text>
+    <text class="mb" x="480" y="-115">K</text>
+    <text class="m"  x="480" y="-145">7</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.2s" repeatCount="indefinite" begin="-1.0s" />
+  </g>
+
+  <!-- Col 12 -->
+  <g>
+    <text class="m"  x="540" y="-10">1</text>
+    <text class="md" x="540" y="-40">ヌ</text>
+    <text class="m"  x="540" y="-70">5</text>
+    <text class="md" x="540" y="-100">ネ</text>
+    <text class="m"  x="540" y="-130">9</text>
+    <text class="md" x="540" y="-160">ノ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.6s" repeatCount="indefinite" begin="-0.2s" />
+  </g>
+
+  <!-- Col 13 -->
+  <g>
+    <text class="md" x="600" y="-30">フ</text>
+    <text class="m"  x="600" y="-60">8</text>
+    <text class="md" x="600" y="-90">ヘ</text>
+    <text class="m"  x="600" y="-120">2</text>
+    <text class="md" x="600" y="-150">ホ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.4s" repeatCount="indefinite" begin="-1.7s" />
+  </g>
+
+  <!-- Col 14 -->
+  <g>
+    <text class="m"  x="660" y="-20">4</text>
+    <text class="md" x="660" y="-50">ミ</text>
+    <text class="m"  x="660" y="-80">6</text>
+    <text class="md" x="660" y="-110">ム</text>
+    <text class="mb" x="660" y="-140">D</text>
+    <text class="m"  x="660" y="-170">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.8s" repeatCount="indefinite" begin="-0.9s" />
+  </g>
+
+  <!-- Col 15 -->
+  <g>
+    <text class="md" x="720" y="-15">メ</text>
+    <text class="m"  x="720" y="-45">3</text>
+    <text class="md" x="720" y="-75">モ</text>
+    <text class="mb" x="720" y="-105">E</text>
+    <text class="m"  x="720" y="-135">7</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.3s" repeatCount="indefinite" begin="-2.0s" />
+  </g>
+
+  <!-- Col 16 -->
+  <g>
+    <text class="m"  x="780" y="-25">9</text>
+    <text class="md" x="780" y="-55">ユ</text>
+    <text class="mb" x="780" y="-85">V</text>
+    <text class="m"  x="780" y="-115">1</text>
+    <text class="md" x="780" y="-145">ヨ</text>
+    <text class="m"  x="780" y="-175">5</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.0s" repeatCount="indefinite" begin="-1.3s" />
+  </g>
+
+  <!-- Col 17 -->
+  <g>
+    <text class="md" x="840" y="-10">リ</text>
+    <text class="m"  x="840" y="-40">2</text>
+    <text class="md" x="840" y="-70">ル</text>
+    <text class="m"  x="840" y="-100">8</text>
+    <text class="md" x="840" y="-130">レ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.3s" repeatCount="indefinite" begin="-0.4s" />
+  </g>
+
+  <!-- Col 18 -->
+  <g>
+    <text class="m"  x="900" y="-30">6</text>
+    <text class="md" x="900" y="-60">ロ</text>
+    <text class="m"  x="900" y="-90">0</text>
+    <text class="md" x="900" y="-120">ン</text>
+    <text class="mb" x="900" y="-150">J</text>
+    <text class="m"  x="900" y="-180">4</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.6s" repeatCount="indefinite" begin="-1.6s" />
+  </g>
+
+  <!-- Col 19 -->
+  <g>
+    <text class="md" x="960" y="-20">ガ</text>
+    <text class="m"  x="960" y="-50">3</text>
+    <text class="md" x="960" y="-80">ギ</text>
+    <text class="mb" x="960" y="-110">V</text>
+    <text class="m"  x="960" y="-140">7</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.5s" repeatCount="indefinite" begin="-0.7s" />
+  </g>
+
+  <!-- Col 20 -->
+  <g>
+    <text class="m"  x="1020" y="-15">5</text>
+    <text class="md" x="1020" y="-45">グ</text>
+    <text class="m"  x="1020" y="-75">1</text>
+    <text class="md" x="1020" y="-105">ゲ</text>
+    <text class="m"  x="1020" y="-135">9</text>
+    <text class="md" x="1020" y="-165">ゴ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="3.9s" repeatCount="indefinite" begin="-2.2s" />
+  </g>
+
+  <!-- Col 21 -->
+  <g>
+    <text class="md" x="1080" y="-25">ザ</text>
+    <text class="m"  x="1080" y="-55">4</text>
+    <text class="md" x="1080" y="-85">ジ</text>
+    <text class="m"  x="1080" y="-115">8</text>
+    <text class="md" x="1080" y="-145">ズ</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.1s" repeatCount="indefinite" begin="-1.1s" />
+  </g>
+
+  <!-- Col 22 -->
+  <g>
+    <text class="m"  x="1140" y="-10">2</text>
+    <text class="md" x="1140" y="-40">ゼ</text>
+    <text class="m"  x="1140" y="-70">6</text>
+    <text class="md" x="1140" y="-100">ゾ</text>
+    <text class="mb" x="1140" y="-130">X</text>
+    <text class="m"  x="1140" y="-160">0</text>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 520" dur="4.7s" repeatCount="indefinite" begin="-0.1s" />
+  </g>
+
+  <!-- ═══════════════ CENTER TITLE WITH GLOW ═══════════════ -->
+  <g class="glow">
+    <text class="title" x="50%" y="140" text-anchor="middle" dominant-baseline="middle">
+      FARUK SELÇUK
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <text class="sub" x="50%" y="175" text-anchor="middle" dominant-baseline="middle">
+    &lt; Backend Developer /&gt;
+    <animate attributeName="opacity" values="0.5;0.85;0.5" dur="4s" repeatCount="indefinite" />
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="350" y="200" width="500" height="1" fill="#00ff41" opacity="0.4">
+    <animate attributeName="width" values="0;500;0" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="x" values="600;350;600" dur="6s" repeatCount="indefinite" />
+  </rect>
+</svg>

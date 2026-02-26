@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate contribution graph SVG
-        uses: jasineri/gitartwork@main  # Public action
+        uses: jasineri/gitartwork@main
         with:
-          user_name: tubakhxn
-          text: TUBA A.KHAN
+          user_name: farukselcuk
+          text: FARUK SELCUK
 
       - name: Commit SVG
         uses: stefanzweifel/git-auto-commit-action@v5
